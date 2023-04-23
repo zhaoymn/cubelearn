@@ -35,3 +35,8 @@ If you find the paper or the code/data helpful to your research/project, please 
   publisher={IEEE}
 }
 ```
+
+
+## License
+
+This project is released under the [Apache 2.0 license](LICENSE).
