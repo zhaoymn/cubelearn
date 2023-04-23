@@ -9,7 +9,11 @@ The training, validation and testing set split is provided in csv format so that
 ## Dataset
 The dataset can be accessed at 
 
-https://www.dropbox.com/sh/qafpm5tstong4ll/AABc4F_moM9LpiKKX9OhBXO3a?dl=0
+HGR: https://www.dropbox.com/s/0gfu1er1dalmqa8/HGR_data.zip?dl=0
+
+AGR: https://www.dropbox.com/s/egidqlng2k6kb40/AGR_data.zip?dl=0
+
+HAR: https://www.dropbox.com/s/l2q25bzczqkmnjl/HAR_data.zip?dl=0
 
 For each file, it is a numpy array of size (2, T, 128, 12, 256), where 2 is the real and complex part of the raw data, T is the timestamps (10 for HGR and AGR, 20 for HAR), 128 is the number of chirps in a frame, 12 is the virtual antennas with the following arrangement:
 ```
