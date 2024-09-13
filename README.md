@@ -7,13 +7,11 @@ P. Zhao, C. X. Lu, B. Wang, N. Trigoni and A. Markham, "CubeLearn: End-to-end Le
 The training, validation and testing set split is provided in csv format so that you can replicate the results in the paper if you want to. The code is provided mianly as a reference. If you want to run the code you'll have to modify the dataset path and select the model which you want to run. The complex layers are based on https://github.com/ivannz/cplxmodule.
 
 ## Dataset
-The dataset can be accessed at 
+[Update]
 
-HGR: https://www.dropbox.com/s/0gfu1er1dalmqa8/HGR_data.zip?dl=0
+I have changed the data hosting location to Hugging Face.
 
-AGR: https://www.dropbox.com/s/egidqlng2k6kb40/AGR_data.zip?dl=0
-
-HAR: https://www.dropbox.com/s/l2q25bzczqkmnjl/HAR_data.zip?dl=0
+https://huggingface.co/datasets/zhaoymn/cubelearn
 
 For each file, it is a numpy array of size (2, T, 128, 12, 256), where 2 is the real and complex part of the raw data, T is the timestamps (10 for HGR and AGR, 20 for HAR), 128 is the number of chirps in a frame, 12 is the virtual antennas with the following arrangement:
 ```
